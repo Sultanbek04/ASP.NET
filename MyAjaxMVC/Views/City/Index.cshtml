@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Ajax.BeginForm("CityFindBySymbol", "City", new AjaxOptions
+{
+    UpdateTargetId = "result",
+    LoadingElementId = "loading",
+    OnBegin = "OnBegin",
+    OnComplete = "OnEnd"
+}))
+{
+    <input type="text" name="name" id="name" />
+    <input type="submit" value="Найти" />
+}
+<div id="result"></div>
+
