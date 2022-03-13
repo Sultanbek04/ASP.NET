@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    @RenderSection("currentMounth", required: false)
+    <div>
+        @RenderBody()
+    </div>
+    @RenderSection("currentYear", required: false)
+    <footer>
+        <h1>My Footer</h1>
+    </footer>
+</body>
+
+
+</html>
