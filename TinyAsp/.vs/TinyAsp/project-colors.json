@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "14202f3a-e7f3-4f1c-928d-7dc05f92f322": {
+      "ProjectGuid": "14202f3a-e7f3-4f1c-928d-7dc05f92f322",
+      "DisplayName": "TinyAsp.App",
+      "ColorIndex": 0
+    },
+    "d33efcfc-e1b3-4407-939f-a07a85db8768": {
+      "ProjectGuid": "d33efcfc-e1b3-4407-939f-a07a85db8768",
+      "DisplayName": "CompanyManagementApp",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
