@@ -1,0 +1,22 @@
+﻿@model IEnumerable<GlobalHelperAndPatrialViewMVC.Models.City>
+@using Helpers;
+@using GlobalHelperAndPatrialViewMVC.Models;
+@using GlobalHelperAndPatrialViewMVC.Controllers;
+@using System.Threading;
+@using System;
+
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    @MyHelpers.ShowCities(Model.ToList())
+</div>
+@Html.Partial("GetCities")
+    
+
+
